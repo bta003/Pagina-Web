@@ -1,13 +1,14 @@
 * {
-  /* margin: 0px;
-  padding: 0px; */
-  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing: border-box; */
 }
 
 body {
+  padding: 35px;
   display: flex;
   font-family: Arial;
-  padding: 80px;
+  padding: none;
   background: linear-gradient(to bottom, black, white 30%, black);
   /* height: 2000px; */
   color: black;
@@ -20,6 +21,7 @@ header {
   font-family: 'Bebas Neue', cursive;
   padding: 30px;
   text-align: center;
+  padding: 0px;
   /* background: white; */
 }
 
@@ -264,7 +266,7 @@ input[type=text], input[type=password] {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: blue;
+  background-color: green;
   opacity: 90%;
 }
 
@@ -292,7 +294,7 @@ input[type=text], input[type=password] {
 }
 
 .dropdown-content a:hover {
-  background-color: blue;
+  background-color: green;
   color: white;
 }
 
@@ -311,6 +313,10 @@ input[type=text], input[type=password] {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+#all h1{
+  color: green;
 }
 
 #first {
@@ -390,20 +396,27 @@ main {
   margin-top: 30px;
 }
 
+table{
+
+}
+
 footer {
+  height: 200px;
   display: flex;
   flex-direction: column;
   padding: 20px;
   background: #ddd;
   margin-top: 20px;
   float: left;
+  justify-content: space-between;
 }
 
 footer a{
-  color: black;
+  color: green;
   text-decoration: none;
 }
 
 footer a:hover{
   text-decoration: underline;
 }
+
