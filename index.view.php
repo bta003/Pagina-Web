@@ -97,6 +97,7 @@
           <a href="index6.php"> Poco</a>
           <a href="index7.php"> Smartphones</a>
           <a href="index8.php"> Tablets</a>
+          <a href="index.php"> Mostra-ho tot</a>
                            
         </div>
       
