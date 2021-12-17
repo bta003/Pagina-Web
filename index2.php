@@ -1,6 +1,6 @@
 <?php
 
-$connexio = new mysqli ("localhost", "root", "", "empresa");
+$connexio = new mysqli ("localhost", "root", "costa2021", "empresa");
 
 if($connexio->connect_errno){
 
